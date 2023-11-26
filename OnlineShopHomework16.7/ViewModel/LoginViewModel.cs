@@ -2,11 +2,11 @@
 
 namespace OnlineShopHomework16._7.ViewModel
 {
-    public class MainViewModel : ViewModelBase
+    public class LoginViewModel : ViewModelBase
     {
-        public MainViewModel()
+        public LoginViewModel() 
         {
-
+            
         }
     }
 }

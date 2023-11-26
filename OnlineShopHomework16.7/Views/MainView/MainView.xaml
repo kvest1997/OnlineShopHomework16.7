@@ -39,7 +39,7 @@
                                 DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="20 -30 0 0">
                             <Ellipse>
                                 <Ellipse.Fill>
-                                    <ImageBrush ImageSource="/Images/avatarIcon.png"/>
+                                    <ImageBrush ImageSource="\Source\Images\avatarIcon.png"/>
                                 </Ellipse.Fill>
                             </Ellipse>
                         </Border>
@@ -55,6 +55,12 @@
                         
                         <!--Menu Buttons-->
                         <StackPanel DockPanel.Dock="Top">
+                            <Button Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="ShoppingSearch" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Список заказов"/>
+                                </StackPanel>
+                            </Button>
                             <Button Style="{StaticResource menuButton}">
                                 <StackPanel Orientation="Horizontal">
                                     <Icon:PackIconMaterial Kind="HomeVariant" Style="{StaticResource menuButtonIcon}"/>
