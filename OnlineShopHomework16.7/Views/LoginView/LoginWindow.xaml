@@ -25,11 +25,33 @@
             </Grid.RowDefinitions>
             <Border>
                 <DockPanel>
-                    <TextBlock Text="Login" Foreground="White" FontSize="30" FontWeight="SemiBold"
+                    <TextBlock Text="Вход" Foreground="White" FontSize="30" FontWeight="SemiBold"
                                DockPanel.Dock="Top" TextAlignment="Center"
                                Margin="10 25"/>
 
-                    <Separator DockPanel.Dock="Top" Height="0.8" Background="Wheat"/>
+                    <Separator DockPanel.Dock="Top" Height="0.8" Background="White"/>
+                    <TextBlock Text="Логин" Foreground="White" FontSize="30"
+                               FontWeight="SemiBold" DockPanel.Dock="Top" TextAlignment="Center"
+                               Margin="10 25"/>
+                    <TextBox Grid.Row="3" Margin="10 25" 
+                             Background="Transparent" 
+                             Foreground="Transparent"
+                             FontWeight="SemiBold"
+                             DockPanel.Dock="Top"
+                             TextAlignment="Center"/>
+
+                    <TextBlock Text="Пароль" Foreground="White" FontSize="30"
+                               FontWeight="SemiBold" DockPanel.Dock="Top" TextAlignment="Center"
+                               Margin="10 25"/>
+                    <TextBox Grid.Row="3" Margin="10 25" 
+                             Background="Transparent" 
+                             Foreground="Transparent"
+                             FontWeight="SemiBold"
+                             DockPanel.Dock="Top"
+                             TextAlignment="Center"/>
+                    <Separator DockPanel.Dock="Top" Height="0.8" Background="White"/>
+                    <Button Content="Войти"
+                            Margin="10 25"/>
                 </DockPanel>
             </Border>
         </Grid>
